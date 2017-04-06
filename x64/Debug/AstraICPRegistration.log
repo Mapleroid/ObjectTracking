@@ -1,0 +1,142 @@
+﻿生成启动时间为 2017/3/22 16:51:49。
+     1>项目“C:\Users\HP\Documents\Visual Studio 2013\Projects\AstraICPRegistration\AstraICPRegistration\AstraICPRegistration.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt projectorCamera.cpp
+         projectorCamera.cpp
+     1>projectorCamera.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\include\pcl-1.8\pcl/point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\include\pcl-1.8\pcl/sample_consensus/ransac.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\include\pcl-1.8\pcl/sample_consensus/model_types.h(100): warning C4996: 'pcl::SAC_SAMPLE_SIZE': This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class
+                 G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\include\pcl-1.8\pcl/sample_consensus/model_types.h(99) : 参见“pcl::SAC_SAMPLE_SIZE”的声明
+     1>G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\include\pcl-1.8\pcl/sample_consensus/sac_model_registration.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\3rdParty\FLANN\include\flann/util/serialization.h(363): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\3rdParty\FLANN\include\flann/util/serialization.h(407): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\3rdParty\FLANN\include\flann/util/saving.h(65): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\3rdParty\FLANN\include\flann/util/saving.h(67): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\3rdParty\FLANN\include\flann/util/logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>c:\users\hp\documents\visual studio 2013\projects\astraicpregistration\astraicpregistration\projectorCamera.h(30): warning C4005: “LOGD”: 宏重定义
+                 c:\users\hp\documents\visual studio 2013\projects\astraicpregistration\astraicpregistration\projectorCamera.h(22) : 参见“LOGD”的前一个定义
+     1>projectorCamera.cpp(685): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>projectorCamera.cpp(928): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>projectorCamera.cpp(1388): warning C4258: “ind”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 projectorCamera.cpp(1374) : 忽略“ind”的定义
+                 projectorCamera.cpp(1364) : 使用“ind”的定义
+     1>projectorCamera.cpp(1457): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>projectorCamera.cpp(1530): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>projectorCamera.cpp(1546): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>projectorCamera.cpp(1565): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>projectorCamera.cpp(1578): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>projectorCamera.cpp(1604): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>projectorCamera.cpp(1668): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>projectorCamera.cpp(1685): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>projectorCamera.cpp(1707): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>projectorCamera.cpp(2020): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>projectorCamera.cpp(2148): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>projectorCamera.cpp(2166): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2715): warning C4996: 'std::_Fill_n': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2701) : 参见“std::_Fill_n”的声明
+                 G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/random/detail/polynomial.hpp(114): 参见对正在编译的函数 模板 实例化“_OutIt std::fill_n<boost::random::detail::polynomial_ops::digit_t*,size_t,boost::random::detail::polynomial_ops::digit_t>(_OutIt,_Diff,const _Ty &)”的引用
+                 with
+                 [
+                     _OutIt=boost::random::detail::polynomial_ops::digit_t *
+         ,            _Diff=size_t
+         ,            _Ty=boost::random::detail::polynomial_ops::digit_t
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\numeric(20): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\numeric(31): 参见对正在编译的函数 模板 实例化“_Ty std::_Accumulate<float*,_Ty,_Fn2>(_InIt,_InIt,_Ty,_Fn2)”的引用
+                 with
+                 [
+                     _Ty=int
+         ,            _Fn2=std::plus<void>
+         ,            _InIt=float *
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\numeric(39): 参见对正在编译的函数 模板 实例化“_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(_InIt,_InIt,_Ty,_Fn2)”的引用
+                 with
+                 [
+                     _Ty=int
+         ,            _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>
+         ,            _Fn2=std::plus<void>
+                 ]
+                 projectorCamera.cpp(1745): 参见对正在编译的函数 模板 实例化“_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>,int>(_InIt,_InIt,_Ty)”的引用
+                 with
+                 [
+                     _Ty=int
+         ,            _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(348): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(333) : 参见“std::_Uninitialized_copy0”的声明
+                 G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(191): 参见对正在编译的函数 模板 实例化“_FwdIt std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)”的引用
+                 with
+                 [
+                     _FwdIt=boost::shared_ptr<void> *
+         ,            I=boost::shared_ptr<void> *
+         ,            _InIt=boost::shared_ptr<void> *
+                 ]
+                 G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(281): 编译类 模板 成员函数“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”时
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(303): 参见对正在编译的函数 模板 实例化“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/connection.hpp(53): 参见对正在编译的类 模板 实例化“boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 G:\PCL-1.8.0-msvc2013-win64\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/connection.hpp(55): 参见对正在编译的类 模板 实例化“boost::signals2::detail::garbage_collecting_lock<Mutex>”的引用
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\HP\Documents\Visual Studio 2013\Projects\AstraICPRegistration\x64\Debug\AstraICPRegistration.exe" /INCREMENTAL /NOLOGO opencv_calib3d2413d.lib opencv_core2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_features2d2413d.lib OpenNI2.lib pcl_common_debug.lib pcl_features_debug.lib pcl_filters_debug.lib pcl_io_ply_debug.lib pcl_kdtree_debug.lib pcl_keypoints_debug.lib pcl_octree_debug.lib pcl_people_debug.lib pcl_recognition_debug.lib pcl_registration_debug.lib pcl_search_debug.lib pcl_segmentation_debug.lib pcl_stereo_debug.lib pcl_surface_debug.lib pcl_tracking_debug.lib pcl_visualization_debug.lib flann.lib "flann_cpp_s-gd.lib" "flann_s-gd.lib" "flann-gd.lib" qhull_d.lib qhullcpp_d.lib qhullcpp.lib qhullstatic_d.lib qhullstatic.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\HP\Documents\Visual Studio 2013\Projects\AstraICPRegistration\x64\Debug\AstraICPRegistration.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\HP\Documents\Visual Studio 2013\Projects\AstraICPRegistration\x64\Debug\AstraICPRegistration.lib" /MACHINE:X64 x64\Debug\AstraData.obj
+         x64\Debug\Htime.obj
+         x64\Debug\main.obj
+         x64\Debug\projectorCamera.obj
+         AstraICPRegistration.vcxproj -> C:\Users\HP\Documents\Visual Studio 2013\Projects\AstraICPRegistration\x64\Debug\AstraICPRegistration.exe
+     1>已完成生成项目“C:\Users\HP\Documents\Visual Studio 2013\Projects\AstraICPRegistration\AstraICPRegistration\AstraICPRegistration.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:17.74
