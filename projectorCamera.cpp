@@ -806,7 +806,6 @@ void ProjectorCamera::findOnDeskObject()
 		vpoints[2] = temHand.approxCurve[2];
 		vpoints[3] = temHand.approxCurve[3];
         clockwiseContour(vpoints);
-		vpoints.push_back(centerPoint);
 
 		for (int i = 0; i < vpoints.size(); ++i)
 			cout << vpoints[i].x <<" "<< vpoints[i].y <<" "<< depthImg.at<float>(vpoints[i].y, vpoints[i].x) << endl;
@@ -815,7 +814,7 @@ void ProjectorCamera::findOnDeskObject()
 		pcl::PointCloud<pcl::PointXYZ>::Ptr source(new pcl::PointCloud<pcl::PointXYZ>);
 		pcl::PointCloud<pcl::PointXYZ>::Ptr result(new pcl::PointCloud<pcl::PointXYZ>);
 
-		if (pcl::io::loadPCDFile<pcl::PointXYZ>("five.pcd", *target) == -1)//打开点云文件
+		if (pcl::io::loadPCDFile<pcl::PointXYZ>("four.pcd", *target) == -1)//打开点云文件
 		{
 				PCL_ERROR("Couldn't read file target.pcd\n");
 				return;
@@ -874,7 +873,7 @@ void ProjectorCamera::findOnDeskObject()
 			transformation(2, 0), transformation(2, 1), transformation(2, 2);
 		R_inv = RR.inverse();
 		TT << transformation(0, 3), transformation(1, 3), transformation(2, 3);
-		Eigen::Matrix<double, 3, 5> Corner;
+		Eigen::Matrix<double, 3, 4> Corner;
 		Eigen::Matrix<double, 3, 1> Point;
 		for (size_t ii = 0; ii < target->points.size(); ++ii)
 		{
@@ -882,7 +881,7 @@ void ProjectorCamera::findOnDeskObject()
 			Point = R_inv * (Point - TT);
 			Corner.col(ii) = Point;
 		}
-		Eigen::Matrix<double, 3, 5> CornerInImage;
+		Eigen::Matrix<double, 3, 4> CornerInImage;
 		for (size_t ii = 0; ii < target->points.size(); ++ii)
 		{
 			CornerInImage.col(ii) = DepToColR.inverse()*(Corner.col(ii) - DepToColT);
