@@ -835,7 +835,7 @@ void ProjectorCamera::findOnDeskObject()
 		DepToColT << -2.5602946386750983e+001, -2.0611612572279053e-001, 2.9436110127104387e+000;
 		Eigen::Matrix<double, 3, 1> Tmp;
 		Eigen::Matrix<double, 3, 1> PointInCol;
-		source->width = 5;
+		source->width = target->points.size();
 		source->height = 1;
 		source->is_dense = false;
 		source->points.resize(source->width * source->height);
@@ -889,11 +889,14 @@ void ProjectorCamera::findOnDeskObject()
 			CornerInImage(0, ii) = CornerInImage(0, ii)*fx / CornerInImage(2, ii) +cx -screenRoi.x;
 			CornerInImage(1, ii) = CornerInImage(1, ii)*fy / CornerInImage(2, ii) + cy - screenRoi.y;
 			circle(foreground, Point2f(CornerInImage(0, ii), CornerInImage(1, ii)), 5, Scalar(0, 0, 255), -1);
+			circle(colorImg, Point2f(CornerInImage(0, ii), CornerInImage(1, ii)+10), 5, Scalar(0, 0, 255), -1);
 		}
 		cout << CornerInImage << endl;
 			
     }
 	imshow("foreground", foreground);
+	waitKey(1);
+	imshow("irimage", colorImg);
 	waitKey(1);
 }
 /*
